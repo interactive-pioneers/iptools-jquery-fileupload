@@ -1,10 +1,10 @@
 # iptools-jquery-fileupload [![Build Status](http://img.shields.io/travis/interactive-pioneers/iptools-jquery-fileupload.svg)](https://travis-ci.org/interactive-pioneers/iptools-jquery-fileupload)
 
-Abstract Generic Filter Plugin
+Displays the filename from the selected file in a sepparate container.
 
 ## Features
 
-...
+- Displays the filename from the selected file in a sepparate container.
 
 ## Requirements
 
@@ -12,7 +12,12 @@ Abstract Generic Filter Plugin
 
 ## Example
 
-...
+```html
+<div>
+  <div class="file-upload__selected-file"><!-- filename will be displayed here--></div>
+  <input class="file-upload__field" type="file">
+</div>
+```
 
 ## Contributions
 
