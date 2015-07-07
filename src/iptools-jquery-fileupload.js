@@ -18,32 +18,32 @@
   IPTFileUpload.prototype = {
 
     init: function() {
-      this.uploadField = this.$element.find('.file-upload__field');
-      this.selectedFile = this.$element.find('.file-upload__selected-file');
+      this.$uploadField = this.$element.find('.file-upload__field');
+      this.$selectedFile = this.$element.find('.file-upload__selected-file');
       this.addEventListeners();
     },
 
     openDialogue: function(event) {
       var self = event.data;
 
-      self.uploadField[0].click();
+      self.$uploadField[0].click();
     },
 
     displayFileName: function(event) {
       var self = event.data;
       var val = $(this).val();
 
-      self.selectedFile.text(val.length ? val.split('\\').pop() : '');
+      self.$selectedFile.text(val.length ? val.split('\\').pop() : '');
     },
 
     addEventListeners: function() {
       this.$element.on('click' + '.' + this._name, null, this, this.openDialogue);
-      this.uploadField.on('change' + '.' + this._name, null, this, this.displayFileName);
+      this.$uploadField.on('change' + '.' + this._name, null, this, this.displayFileName);
     },
 
     destroy: function() {
       this.$element.off('click' + '.' + this._name);
-      this.uploadField.off('change' + '.' + this._name);
+      this.$uploadField.off('change' + '.' + this._name);
       this.$element.removeData('plugin_' + pluginName);
     }
 
