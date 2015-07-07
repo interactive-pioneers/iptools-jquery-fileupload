@@ -29,7 +29,7 @@
       self.uploadField[0].click();
     },
 
-    writeFileName: function(event) {
+    displayFileName: function(event) {
       var self = event.data;
       var val = $(this).val();
 
@@ -38,7 +38,7 @@
 
     addEventListeners: function() {
       this.$element.on('click' + '.' + this._name, null, this, this.openDialogue);
-      this.uploadField.on('change' + '.' + this._name, null, this, this.writeFileName);
+      this.uploadField.on('change' + '.' + this._name, null, this, this.displayFileName);
     },
 
     destroy: function() {
