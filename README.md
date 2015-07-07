@@ -13,7 +13,7 @@ Displays the filename from the selected file in a sepparate container.
 ## Example
 
 ```html
-<div>
+<div class="file-upload">
   <div class="file-upload__selected-file"><!-- filename will be displayed here--></div>
   <input class="file-upload__field" type="file">
 </div>
