@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     yeoman: {
       src: 'src',
       dist: 'dist',
+      test: 'test',
       pkg: grunt.file.readJSON('package.json'),
       meta: {
         banner: '/*! <%= yeoman.pkg.name %> - v<%= yeoman.pkg.version %> - ' +
