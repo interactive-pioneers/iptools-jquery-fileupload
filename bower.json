@@ -1,7 +1,7 @@
 {
   "name": "iptools-jquery-fileupload",
   "description": "jQuery fileupload plugin",
-  "main": "dist/iptools-jquery-fileupload.min.js",
+  "main": "src/iptools-jquery-fileupload.js",
   "license": "GPL-3.0",
   "ignore": [
     ".git*",
