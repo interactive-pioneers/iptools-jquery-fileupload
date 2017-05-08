@@ -10,12 +10,11 @@
     <input class="file-upload__field" type="file">
   </div>
   <div id="mocha"></div>
-  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="lib/mocha/mocha.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js"></script>
+  <script src="../node_modules/sinon/pkg/sinon.js"></script>
   <script>mocha.setup('bdd');</script>
-  <!-- assertion framework -->
-  <script src="lib/chai.js"></script>
-  <script src="lib/sinon-1.15.4.js"></script>
   <script>var expect = chai.expect;</script>
   <script src="spec/test.js"></script>
   <script src="../src/iptools-jquery-fileupload.js"></script>

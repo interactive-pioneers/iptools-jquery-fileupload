@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     yeoman: {
       src: 'src',
       dist: 'dist',
+      test: 'test',
       pkg: grunt.file.readJSON('package.json'),
       meta: {
         banner: '/*! <%= yeoman.pkg.name %> - v<%= yeoman.pkg.version %> - ' +
@@ -50,12 +51,15 @@ module.exports = function(grunt) {
       ]
     },
     jscs: {
-      src: 'src/**/*.js',
       options: {
-        config: '.jscs.json',
-        fix: false,
-        force: false,
-        reporterOutput: null
+        config: '.jscsrc'
+      },
+      files: {
+        src: [
+          'Gruntfile.js',
+          '<%= yeoman.test %>/spec/*.js',
+          '<%= yeoman.src %>/*.js'
+        ]
       }
     },
     scsslint: {
@@ -72,7 +76,8 @@ module.exports = function(grunt) {
     mocha: {
       all: {
         options: {
-          run: true
+          run: true,
+          log: true
         },
         src: ['test/index.html']
       }
