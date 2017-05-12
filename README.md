@@ -1,10 +1,10 @@
 # iptools-jquery-fileupload [![Build Status](http://img.shields.io/travis/interactive-pioneers/iptools-jquery-fileupload.svg)](https://travis-ci.org/interactive-pioneers/iptools-jquery-fileupload)
 
-Displays the filename from the selected file in a sepparate container.
+Displays the filename from the selected file in a separate container.
 
 ## Features
 
-- Displays the filename from the selected file in a sepparate container.
+- Displays the filename from the selected file in a separate container.
 
 ## Requirements
 
