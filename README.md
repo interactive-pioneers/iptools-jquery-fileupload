@@ -8,7 +8,7 @@ Displays the filename from the selected file in a separate container.
 
 ## Requirements
 
-- jQuery >=1.11.3 <4.0.0
+- jQuery >=1.11.3 <4
 
 ## Example
 
