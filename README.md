@@ -1,4 +1,4 @@
-# iptools-jquery-fileupload [![Build Status](http://img.shields.io/travis/interactive-pioneers/iptools-jquery-fileupload.svg)](https://travis-ci.org/interactive-pioneers/iptools-jquery-fileupload)
+# iptools-jquery-fileupload [![Build Status](http://img.shields.io/travis/interactive-pioneers/iptools-jquery-fileupload.svg)](https://travis-ci.org/interactive-pioneers/iptools-jquery-fileupload) [![npm version](https://badge.fury.io/js/iptools-jquery-fileupload.svg)](https://badge.fury.io/js/iptools-jquery-fileupload) [![Bower version](https://badge.fury.io/bo/iptools-jquery-fileupload.svg)](http://badge.fury.io/bo/iptools-jquery-fileupload)
 
 Displays the filename from the selected file in a separate container.
 
